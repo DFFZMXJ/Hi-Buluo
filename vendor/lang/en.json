@@ -3,7 +3,14 @@
     "login":"Sign In",
     "register":"Sign Up",
     "profile":"Profile",
-    "admin":"Administration"
+    "admin":"Administration",
+    "ban":"Ban this user",
+    "un_ban":"Un-ban this user",
+    "new_post":"New post"
+  },
+  "text":{
+    "network_error":"An error appeared because of your internet connection. Checkout for your internet connection.",
+    "mods":"Extensions"
   },
   "login":{
     "password_incorrect":"Password incorrect! Check for your password!",
