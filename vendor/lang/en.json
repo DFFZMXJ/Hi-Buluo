@@ -1,0 +1,30 @@
+{
+  "button":{
+    "login":"Sign In",
+    "register":"Sign Up",
+    "profile":"Profile",
+    "admin":"Administration"
+  },
+  "login":{
+    "password_incorrect":"Password incorrect! Check for your password!",
+    "account_banned":"Your account have been banned! Contact your admin to un-ban! Reason:{[reason]}",
+    "unknown":"Unknown error appeared! Contact your admin to solve!",
+    "user_not_exist":"This user is not exist! Check the username or sign up a new account.",
+    "banner_text":"Sign In",
+    "forgot_password":"Forgot password?",
+    "username":"Username",
+    "password":"Password"
+  },
+  "register":{
+    "user_already_registered":"This account is already registered! Change another username.",
+    "password_not_match":"Two passwords are not match! Check your password!"
+  },
+  "warning":{
+    "beta_version":"You are using beta version of Hi~ Buluo! If you have problems, go to official website to find the solution.",
+    "admin_warning":"System administrator gave you a warning: {[warning]}",
+    "email_variation":"You need to finish email variation to use your account! No email found? <a href=\"{[email]}\">Send again</a> or contact system admin."
+  },
+  "language":"English",
+  "version":"0.1",
+  "author":"Goddess of Learning"
+}
