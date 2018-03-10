@@ -1,24 +1,32 @@
-# Hi~ Buluo #
+# Hi~ 部落 #
 
-Hi~ Buluo is a social network system looks like [QQ Buluo](http://buluo.qq.com).
+Hi~ 部落是个仿[QQ部落](http://buluo.qq.com)的社交网站。
 
-If you also want to build a website like QQ Buluo, Hi~ Buluo is the best choice.
+如果你也想弄个部落网站，Hi~ 部落或许是你的不二选择！
 
-# Features #
+# 特点欣赏 #
 
-* Users can create their own category.
-* Support tags.
-* Free and open source.
-* Uses Markdown editor.
+* 用户可自己创建部落。
+* 支持帖子贴标签
+* 免费、开源。
+* 使用基于Markdown的编辑器。
+* 支持多语言。
 
-# Update Log #
+# 更新日志 #
 
-\# | Date | Features
+> Hi~ 部落目前不能使用，会在beta及以后版本允许正常使用。
+
+版本号 | 日期 | 内容
 :---: | :---: | :---:
-0 | Mar. 2, 2017 | Project Started!
+0.1.0 alpha | 2017年3月2日 | 启动项目！
+0.1.1 alpha | 2017年3月10日 | 完善多语言文件，开发更多功能。
 
-# Contact me #
+# 联系我 #
 
-Email: [dffzmxj@qq.com](mailto:dffzmxj@qq.com)
-QQ: 2477819731  WeChat: DFFZMXJ
-Official Forum:[Goddess Forum](http://forum.dffzmxj.tk)
+> 由于目前部落还不能使用，所以暂用论坛代替交流社区！
+
+电邮地址: [dffzmxj@qq.com](mailto:dffzmxj@qq.com)
+
+QQ: 2477819731  微信号: DFFZMXJ
+
+官方论坛:[Goddess Forum](http://forum.dffzmxj.tk)
