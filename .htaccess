@@ -1,0 +1,16 @@
+# The htaccess file of Hi-Buluo.
+# This is define the API, pages and extensions directories.
+
+# Index file of Hi-Buluo.
+DirectoryIndex index.php index.html index.htm
+#Custom error pages.
+ErrorDocument 404 vendor/pages/error.php?err=404
+ErrorDocument 403 vendor/pages/error.php?err=403
+# Enable URL Rewrite.
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^api/([0-9A-Za-z\-]+)/(.*)$ api.php?function=$1&extends=$2
+RewriteRule ^user/(.*)$ index.php?page=user&user=$1
+RewriteRule ^post/([0-9]+)$ index.php?page=post&post=$1
+RewriteRule ^buluo/([0-9]*)$ index.php?page=buluo&buluo=$1
+RewriteRule ^admin/(.*)$ admin.php?page=$1

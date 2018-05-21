@@ -2,6 +2,7 @@
  * marked - a markdown parser
  * Copyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)
  * https://github.com/chjj/marked
+ * ©DDNote designed by Goddess of Learning(DFFZMXJ) in 2018
  */
 
 ;(function() {
@@ -826,7 +827,7 @@ Renderer.prototype.paragraph = function(text) {
 };
 
 Renderer.prototype.table = function(header, body) {
-  return '<table>\n'
+  return '<table class="mdui-table mdui-table-hoverable">\n'
     + '<thead>\n'
     + header
     + '</thead>\n'

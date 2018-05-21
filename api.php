@@ -4,3 +4,4 @@
  * http://domain/api/%plugin%/%function%/%project%?values
  * Example: http://buluo.dffzmxj.tk/api/hi/user/info?id=1
  */
+ echo $_SERVER["QUERY_STRING"];

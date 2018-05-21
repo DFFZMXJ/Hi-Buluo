@@ -4,7 +4,7 @@
  * @author made by Goddess of Learning
  * Usage: $var = xmlread(Path of file);
  */
-
+namespace Hi\Parser\XML;
 function xmlread($FilePath){
     //Function to read XML file. Transfer to array.
     if(file_exists($FilePath)){
