@@ -1,0 +1,12 @@
+# English language package of Hi-Buluo.
+# Made by Goddess.
+# This will be updated by upgrading Hi-Buluo's version.
+# ©2018 By Goddess.
+language:
+  welcome: Welcome to Hi Buluo! This is a great cumminuty system! # Welcome banner.
+  titles: # Browser titles.
+    home: Home # Home page.
+package:
+  version: ^0.0.1 alpha # Supported version of Hi Buluo.
+  name: English # Language name - name with the current language.
+  author: Goddess # Language author - in any languages.

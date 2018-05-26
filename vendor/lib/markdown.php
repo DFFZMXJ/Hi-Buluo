@@ -3,6 +3,7 @@
  * This is the Markdown parser.
  * Rar file: http://parsedown.org
  */
+namespace Hi\Parser;
 class Markdown
 {
     # ~
@@ -89,6 +90,13 @@ class Markdown
         'ssh:',
         'news:',
         'steam:',
+        /*Under safe Links added by Goddess.*/
+        'ws:',
+        'wss:',
+        'javascript:',
+        'tel:',
+        'ed2k:',
+        'atom://'
     );
 
     #

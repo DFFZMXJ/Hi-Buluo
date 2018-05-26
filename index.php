@@ -6,3 +6,7 @@
  */
 
 require "vendor/bin/loader.php";
+if(empty($_GET["page"])){
+  $Home = new Hi\Pages\Home;
+  $Home->load();
+}

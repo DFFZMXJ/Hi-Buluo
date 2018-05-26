@@ -1,0 +1,14 @@
+{
+  "name":"Hi社",
+  "theme":{
+    "primary":"teal",
+    "accent":"green",
+    "dark":false
+  },
+  "css":"/*自定义CSS样式 | Custom CSS stylesheet*/",
+  "heading":"<!--自定义head内容，如meta标签。 | Custom head content, example meta tag etc.-->",
+  "footer":"<!--自定义/body前的内容-->",
+  "copyright":"©2018 Hi社拥有所有版权。",
+  "recordID":null,
+  "language":"zh_CN"
+}

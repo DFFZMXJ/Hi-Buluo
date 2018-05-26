@@ -1,10 +1,10 @@
 /*
+ * This is J8 lab.
  * Good evening~ This is my own JavaScript lab!
  * This will be mixed with jQuery!
- * Another version of eaqJS! No version information!
- * ©DDNote designed by Goddess of Learning(DFFZMXJ) in 2018
+ * ©Hi-Buluo designed by Goddess of Learning(DFFZMXJ) in 2018
 **/
- "use strict";
+ //"use strict";
 var none = Symbol("None");
 var hi = {
     //The mixer function in a object.

@@ -1,0 +1,12 @@
+# Hi社的简体中文语言包。
+# 由学神之女制作。
+# 会逐版本更新，不必担心翻译出错！
+# ©2018 By Goddess.
+language:
+  welcome: 欢迎来到Hi社，您正在使用一款非常棒的社交系统! # 欢迎语
+  titles:
+    home: 主页
+package:
+  version: ^0.0.1 alpha # 适用的Hi社版本
+  name: 中文(简体) # 语言名字 - 以本语言命名
+  author: 学神之女 # 语言作者 - 任意语言

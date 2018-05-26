@@ -1,4 +1,4 @@
-[Click me to visit English version.](en.readme.md)
+[Click me to view English version.](en.readme.md)
 
 # Hi社 #
 
@@ -8,19 +8,20 @@ Hi社是个仿[QQ部落](http://buluo.qq.com)的社交网站。
 
 # 特点欣赏 #
 
-* 用户可自己创建“社”。
-* 支持帖子贴标签
+* 用户可自己创建区域，即“社”。
+* 支持给帖子添加话题。
 * 免费、开源。
-* 使用基于Markdown的编辑器。
-* 支持多语言。
+* 使用基于Markdown语法。
+* 支持多语言。 \*默认语言由后台设定，并非根据请求字符串识别。
 
 # 更新日志 #
 
-> Hi社目前不能使用，会在beta及以后版本允许正常使用。
+> Hi社目前不能使用，会在beta及以后版本允许正常使用。(alpha -> beta -> release)
+> 仅显示摘要更新，详细更新请查看[更新日志](logs.md)。
 
 版本号 | 日期 | 内容
 :---: | :---: | :---:
-0.0.1 alpha | 2017年3月2日 | 启动项目！
+0.0.1 alpha | 2018年3月2日 | Hi社诞生了！
 
 # 联系我 #
 

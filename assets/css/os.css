@@ -1,0 +1,31 @@
+body,input{
+  /*Define default font family.*/
+  font-family:Roboto, "Roboto", sans-serif;
+}
+code,pre{
+  /*Font family for code.*/
+  font-family: "Fira Code", "Source Code Pro", "Consolas", "Coursor", sans-serif;
+}
+.cover{
+  /*Cover compent's parent element.*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,255,0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.covered{
+  /*Cover compent's content element.*/
+  flex: 1;
+}
+.lists{
+  max-width: 768px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
