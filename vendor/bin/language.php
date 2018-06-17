@@ -7,7 +7,7 @@ namespace Hi;
 function get_text($object){
   if(file_exists("vendor/langs/".(Database::get("settings")["language"]).".yml")){
     //If there is the language of settings.
-    $texts = Parser\YAML::parse("vendor/langs/".(Database::get("settings")["language"].".yml"));
+    $texts = Parser\YAML::parse("vendor/langs/".(Database::get("settings")["language"].".yml"))["language"];
     $selected = explode(".",$object);
     $result=$object;
     for($i=0;$i<count($selected);$i++){
@@ -18,6 +18,7 @@ function get_text($object){
         break;
       }else{
         if(!empty($texts[$selected[$i]])){
+          $result = $texts[$selected[$i]];
           $texts = $texts[$selected[$i]];
           continue;
         }else{

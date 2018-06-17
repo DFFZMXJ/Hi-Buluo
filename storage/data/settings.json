@@ -7,8 +7,15 @@
   },
   "css":"/*自定义CSS样式 | Custom CSS stylesheet*/",
   "heading":"<!--自定义head内容，如meta标签。 | Custom head content, example meta tag etc.-->",
-  "footer":"<!--自定义/body前的内容-->",
-  "copyright":"©2018 Hi社拥有所有版权。",
-  "recordID":null,
+  "/body":"<!--自定义/body前的内容-->",
+  "footer":{
+    "copyright":"Copyright © 2018 Copyright By Goddess. All Rights Are Reserved.",
+    "links":[
+      {
+        "text":"GitHub",
+        "href":"http://github.com/dffzmxj/hi-buluo"
+      }
+    ]
+  },
   "language":"zh_CN"
 }

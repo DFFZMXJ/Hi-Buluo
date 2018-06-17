@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id":"10000",
+    "username":"系统消息",
+    "password":"系统账户不可登陆。",
+    "bio":"无间断为你提示。",
+    "birthday":"2018/6/1",
+    "gender":"other",
+    "email":"admin@dffzmxj.tk",
+    "avatar":null,
+    "banned":{
+      "limit":-1,
+      "reason":"不允许登录系统账户。"
+    },
+    "suspend":false,
+    "group":"admin"
+  }
+]

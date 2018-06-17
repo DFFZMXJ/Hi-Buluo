@@ -4,7 +4,7 @@ body,input{
 }
 code,pre{
   /*Font family for code.*/
-  font-family: "Fira Code", "Source Code Pro", "Consolas", "Coursor", sans-serif;
+  font-family: "Monaco", "Fira Code", "Source Code Pro", "Consolas", "Coursor", monospace, sans-serif;
 }
 .cover{
   /*Cover compent's parent element.*/

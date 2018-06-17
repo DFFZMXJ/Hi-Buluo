@@ -15,3 +15,6 @@ function unBan($username){
 function login($username,$password){
   //Check the validation of login.
 }
+if(\Hi\isOnAPI()) header("Debug-Users:".(string)\Hi\API\Register("users",function($funcID){
+  //Register as Register API.
+}));

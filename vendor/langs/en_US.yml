@@ -6,6 +6,9 @@ language:
   welcome: Welcome to Hi Buluo! This is a great cumminuty system! # Welcome banner.
   titles: # Browser titles.
     home: Home # Home page.
+  errors: # Errors List
+    bad_request: Illegal request!
+    not_found: The resource of you request is not found!
 package:
   version: ^0.0.1 alpha # Supported version of Hi Buluo.
   name: English # Language name - name with the current language.

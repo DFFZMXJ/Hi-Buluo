@@ -13,7 +13,7 @@ Options -Indexes
 RewriteEngine on
 RewriteBase /
 # API Pages, ignore LettEr'S bIg ANd sMAll
-RewriteRule ^api/([0-9A-Za-z\-]+)/(.*)$ api.php?function=$1&extends=$2 [NC,L,QSA]
+RewriteRule ^api/([0-9A-Za-z\-]+)/(.*)$ api.php?extension=$1&function=$2 [NC,L,QSA]
 RewriteRule ^user/(.*)$ index.php?page=user&user=$1 [NC,L,QSA]
 RewriteRule ^post/([0-9]+)$ index.php?page=post&post=$1 [NC,L,QSA]
 RewriteRule ^buluo/([0-9]*)$ index.php?page=buluo&buluo=$1 [NC,L,QSA]
