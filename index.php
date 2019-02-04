@@ -1,26 +1,11 @@
 <?php
 /*
- * @Author Goddess of Learning
- * This is made my Goddess of Learning
- * It's open source for you!
+ * This is made my DFFZMXJ
+ * If you see this name has benn changed, contact me.
+ * @author DFFZMXJ
  */
-
-require "vendor/bin/loader.php";
-if(file_exists("storage/installed.dll")&&empty($_GET["page"])){
-  $Home = new Hi\Pages\Home;
-  $Home->load();
-}elseif (file_exists("storage/installed.dll")) {
-  switch ($_GET["page"]) {
-    case 'user'://User profile page
-      break;
-    case 'buluo':
-      break;
-    case 'auth':
-      break;
-    default:
-      header(Hi\Status[404]);
-      break;
-  }
-}else {
-  //If admin did not install Hi Buluo.
-}
+const __PROGRAM_ROOT__ = __DIR__;
+require "kernel/initalize.php";
+header("Content-Type:text/plain;");
+var_export([__PATH_INFO__,$_SERVER,$_GET]);
+echo " By index.php";

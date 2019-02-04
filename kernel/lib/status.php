@@ -3,8 +3,7 @@
  * Hi Buluo's return-able status code list.
  * Supported all status.
 **/
-namespace Hi;
-const Status = array (
+const __RETURN_STATUS__ = array (
 100 => "HTTP/1.1 100 Continue",
 101 => "HTTP/1.1 101 Switching Protocols",
 200 => "HTTP/1.1 200 OK",

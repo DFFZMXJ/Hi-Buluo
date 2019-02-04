@@ -1,24 +1,29 @@
+# Oh my goodness that's too pain! Forget it and use PATH_INFO in another way!
 # The htaccess file of Hi-Buluo.
 # This is define the API, pages and <del>extensions</del> directories.
 
-# Index file of Hi-Buluo.
-DirectoryIndex index.php index.html index.htm
-# Define error pages.
-ErrorDocument 404 vendor/pages/error.php?err=404
-ErrorDocument 403 vendor/pages/error.php?err=403
+# Experiment: Force support PATH_INFO for Apache.
+<Files *.php>
+# AcceptPathInfo On
+</Files>
 # Enable URL Rewrite.
 Options +FollowSymlinks
 # Disable to list all directories by accessing non-mian page folder.
 Options -Indexes
 RewriteEngine on
-RewriteBase /
-# API Pages, ignore LettEr'S bIg ANd sMAll
-RewriteRule ^api/([0-9A-Za-z\-]+)/(.*)$ api.php?extension=$1&function=$2 [NC,L,QSA]
-RewriteRule ^user/(.*)$ index.php?page=user&user=$1 [NC,L,QSA]
-RewriteRule ^post/([0-9]+)$ index.php?page=post&post=$1 [NC,L,QSA]
-RewriteRule ^buluo/([0-9]*)$ index.php?page=buluo&buluo=$1 [NC,L,QSA]
-RewriteRule ^admin/(.*)$ admin.php?page=$1 [NC,L,QSA]
-RewriteRule ^auth/$ index.php?page=auth [NC,L,QSA]
+# Try to use the same configure as Typecho
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
 # Deny user to access these pages.
-RewriteRule ^vendor/$ - [F,L]
+RewriteRule ^kernel/$ - [F,L]
 RewriteRule ^storage/$ - [F,L]
+# Pages
+# RewriteBase /
+# RewriteRule ^api(.*)$ api.php [NC,QSA,L,E=PATH_INFO:$1]
+RewriteRule ^assets(/.*)?$ - [NC,L]
+# RewriteRule (.*) index.php [QSA,L,E=PATH_INFO:/$1]
+# If you won't see 'No input file specifed' or other errors, please apply these rules:
+# RewriteBase /
+RewriteRule ^api(.*)$ api.php?/$1 [NC,L,QSA]
+# RewriteRule ^assets(/.*)?$ - [NC,L,QSA]
+RewriteRule (.*) index.php?/$1 [PT,L,QSA]

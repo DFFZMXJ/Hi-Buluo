@@ -1,13 +1,13 @@
 <?php
 /*
  * This is the sticker parser.
- * Made by Goddess.
+ * Made by DFFZMXJ.
  * This parser can convert :emoji_code: to a sticker image.
+ * This parser will not be used formally because it will be merged with Markdown parser.
 **/
-namespace Hi;
 class Sticker
 {
-  function convert($text){
+  public static function convert($text){
     //Converter function.
     foreach($this->stickerList as $sticker=>$filename){
       //Replace sticker with foreach() function.
@@ -16,7 +16,7 @@ class Sticker
     return $text;
   }
   var $stickerPath="/assets/sticker/";//The sticker path.
-  var $stickerList=array(//The matched sticker file.
+  var $stickerList=array(//Stickers list.
     //English name translated by Google.
     //Chinese name & sticker pack are from Tieba.
     'happy'=>'1.png',
@@ -58,7 +58,7 @@ class Sticker
     'unhappy'=>'37.png',
     'be_good'=>'38.png',
     'victory'=>'39.png',
-    'rainbow'=>'41.png',//40th picture is same as 39th picture.
+    'rainbow'=>'41.png',//the 40th picture is the same as the 39th picture.
     'ha_ha'=>'42.png',
     'yi'=>'43.png',//Googls's result is "what".
     'surprised'=>'44.png',

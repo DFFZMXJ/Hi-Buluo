@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WARNING</title>
+</head>
+
+<body>
+    <main>
+        <h1 style="color:red; text-transform: uppercase;">Warning: Your website is dangerous!</h1>
+        <p>This is the core of Hi Buluo. Normally you can't access here, you will get an error like 403 Forbidden.</p>
+        <p>But because something went wrong on the website, you are granted to access here.</p>
+        <p>You should report this to the admin of this website, or fix it yourself. Also, if you are not the admin, you
+            can try to hack this website. :P</p>
+        <p>Whatever, remember this is serious.</p>
+    </main>
+    <footer style="border-top: 1px solid;">&copy;<span id="year">2018</span> Copyright by 学神之女, all rights reversed. <a
+            href="https://github.com/DFFZMXJ/Hi-Buluo" target="_blank">GitHub Project</a></footer>
+    <script>
+        var year = new Date().getFullYear();
+        if(year>2018) document.getElementById("year").innerHTML="2018-"+year;
+        else if(year<2018) document.getElementById("year").innerHTML=year+"-2018";
+    </script>
+</body>
+
+</html>

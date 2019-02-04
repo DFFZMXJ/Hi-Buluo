@@ -3,7 +3,6 @@
  * Home page of Hi-Buluo. This inserted PHP codes.
  * Copyright (c) 2017 Copyright by Goddess. All Rights Reserved.
 **/
-namespace Hi\Pages;
 class Home{
   /*Home page class.*/
   function load(){
